@@ -12,21 +12,20 @@
 ## 專案結構
 
 my-todo-app/
-├── components/             # 可重複使用的元件
-│   ├── AddTodo.tsx         # 新增任務的輸入框與按鈕
-│   └── TodoItem.tsx        # 單一任務顯示區塊（含勾選、刪除功能）
-│   └── ConfirmModal.tsx    # 確認彈窗元件
-│
-├── types/                  # 自訂型別定義
-│   └── todo.ts             # Todo 資料結構定義
-│
-├── App.tsx                 # 主應用邏輯與畫面，包含列表顯示與過濾
-├── index.tsx               # 應用進入點（ReactDOM 渲染）
-├── index.css               # 全域樣式（含 Tailwind）
-├── ConfirmModal.scss       # 確認彈窗樣式
-├── tsconfig.json           # TypeScript 設定檔
-├── tailwind.config.js      # Tailwind CSS 設定
-└── package.json            # 專案依賴與指令
+components/          # 可重複使用的元件
+-AddTodo.tsx         # 新增任務的輸入框與按鈕
+-TodoItem.tsx        # 單一任務顯示區塊（含勾選、刪除功能）
+-ConfirmModal.tsx    # 確認彈窗元件
+
+types/               # 自訂型別定義
+-todo.ts             # Todo 資料結構定義
+
+-App.tsx             # 主應用邏輯與畫面，包含列表顯示與過濾
+-index.tsx           # 應用進入點（ReactDOM 渲染）
+-index.css           # 全域樣式（含 Tailwind）
+-ConfirmModal.scss   # 確認彈窗樣式
+-tsconfig.json       # Tailwind CSS 設定
+-package.json        # 專案依賴與指令
 
 ## 使用技術
 
