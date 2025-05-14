@@ -20,6 +20,7 @@ components/          # 可重複使用的元件
 types/               # 自訂型別定義
 - todo.ts             # Todo 資料結構定義
 
+src/
 - App.tsx             # 主應用邏輯與畫面，包含列表顯示與過濾
 - index.tsx           # 應用進入點（ReactDOM 渲染）
 - index.css           # 全域樣式（含 Tailwind）
